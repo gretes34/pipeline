@@ -8,7 +8,7 @@
 # O código da aplicação, propositalmente, continua com as
 # vulnerabilidades estudadas nos laboratórios de SonarQube e Semgrep.
 
-FROM python:latest
+FROM python:3.12.15-slim-trixie
 
 WORKDIR /app
 
