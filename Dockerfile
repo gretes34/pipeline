@@ -8,7 +8,7 @@
 # O código da aplicação, propositalmente, continua com as
 # vulnerabilidades estudadas nos laboratórios de SonarQube e Semgrep.
 
-FROM python:3.14.8-bookworm
+FROM python:3.15.orc2-slim-trixie
 
 WORKDIR /app
 
